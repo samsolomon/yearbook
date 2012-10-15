@@ -3,6 +3,7 @@ Yearbook::Application.routes.draw do
   get'/rfd', {:controller => 'Yearbook', :action => 'rfd'}
   get'/am', {:controller => 'Yearbook', :action => 'am'}
   get'/pm', {:controller => 'Yearbook', :action => 'pm'}
+  get'/home', {:controller => 'Yearbook', :action => 'home'}
 end
 
   # The priority is based upon order of creation:
