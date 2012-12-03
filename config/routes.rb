@@ -4,6 +4,8 @@ Yearbook::Application.routes.draw do
   get'/am', {:controller => 'Yearbook', :action => 'am'}
   get'/pm', {:controller => 'Yearbook', :action => 'pm'}
   get'/home', {:controller => 'Yearbook', :action => 'home'}
+  
+  root :to => 'yearbook#all'
 end
 
   # The priority is based upon order of creation:
